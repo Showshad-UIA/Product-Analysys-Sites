@@ -4,10 +4,10 @@ import NavigationLink from "../NavigationLink/NavigationLink";
 const NabBar = () => {
 	const routes = [
 		{ id: 1, name: "Home", link: "/home" },
-		{ id: 1, name: "Reviews", link: "/reviews" },
-		{ id: 1, name: "Blog", link: "/blog" },
-		{ id: 1, name: "About", link: "/about" },
-		{ id: 1, name: "Display", link: "/display" },
+		{ id: 2, name: "Review", link: "/review" },
+		{ id: 3, name: "Blog", link: "/blog" },
+		{ id: 4, name: "About", link: "/about" },
+		{ id: 5, name: "OverView", link: "/overView" },
 	];
 	return (
 		<nav className="bg-indigo-200">
