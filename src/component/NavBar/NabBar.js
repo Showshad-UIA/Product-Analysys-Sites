@@ -7,10 +7,11 @@ const NabBar = () => {
 		{ id: 1, name: "Reviews", link: "/reviews" },
 		{ id: 1, name: "Blog", link: "/blog" },
 		{ id: 1, name: "About", link: "/about" },
+		{ id: 1, name: "Display", link: "/display" },
 	];
 	return (
-		<nav>
-			<ul>
+		<nav className="bg-indigo-200">
+			<ul className="md:flex justify-end mt-4 text-300 ">
 				{routes.map((route) => (
 					<NavigationLink key={route.id} route={route}></NavigationLink>
 				))}

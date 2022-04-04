@@ -4,7 +4,7 @@ const NavigationLink = (props) => {
 	const { name, link } = props.route;
 	return (
 		<div>
-			<li>
+			<li className="mr-12">
 				<a href={link}>{name}</a>
 			</li>
 		</div>
