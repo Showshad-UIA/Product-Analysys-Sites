@@ -1,18 +1,17 @@
 import React from "react";
-import "./Item.css";
+import { Link, useNavigate } from "react-router-dom";
 
 const Item = (props) => {
 	const { img, name, id, rating } = props.item;
+	const navigate = useNavigate();
+	const reviewDetails = () => {
+		navigate("/item/" + id);
+	};
 	return (
-		<div className="item-container">
-			<div>
-				<img src={img} alt="" />
-			</div>
-			<div>
-				<p>Name:{name}</p>
-				<p>Id:{id}</p>
-				<p>Rating:{rating}</p>
-			</div>
+		<div>
+			<h2>Name:{name}</h2>
+			<Link to={"/item/" + id}>show details</Link>
+			<button onClick={reviewDetails}>{id}</button>
 		</div>
 	);
 };
