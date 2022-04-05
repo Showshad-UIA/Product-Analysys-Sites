@@ -15,43 +15,49 @@ const DisplayChart = () => {
 		{
 			month: "Mar",
 			investment: 100000,
+			sell: 241,
+			profit: 10401,
 			id: 1,
-			loss: 2300,
-			profit: 50401,
 		},
 		{
 			month: "Apr",
 			investment: 200000,
-			id: 2,
-			loss: 1400,
-			profit: 8500,
+			region: "America",
+			sell: 423,
+			profit: 24500,
+			id: 20,
 		},
 		{
 			month: "May",
 			investment: 500000,
+			region: "Bangladesh",
+			sell: 726,
+			profit: 67010,
 			id: 3,
-			loss: 2500,
-			profit: 83010,
 		},
 		{
 			month: "Jun",
 			investment: 500000,
+			region: "India",
+			sell: 529,
+			profit: 40405,
 			id: 4,
-			loss: 2000,
-			profit: 14005,
 		},
 		{
 			month: "Jul",
 			investment: 600000,
+			region: "Malaysia",
+			sell: 601,
+			profit: 50900,
 			id: 5,
-			loss: 3000,
-			profit: 30000,
 		},
 		{
 			month: "Aug",
-			loss: 4000,
-			id: 6,
-			profit: 60000,
+			region: "africa",
+			investment: 700000,
+			sell: 670,
+			profit: 61000,
+			id: 31,
 		},
 	];
 
@@ -68,13 +74,13 @@ const DisplayChart = () => {
 			}}
 		>
 			<CartesianGrid strokeDasharray="3 3" />
-			<XAxis dataKey="id" />
+			<XAxis dataKey="region" />
 			<YAxis />
 			<Tooltip />
 			<Legend />
 			<Line
 				type="monotone"
-				dataKey="loss"
+				dataKey="id"
 				stroke="#8884d8"
 				activeDot={{ r: 8 }}
 			/>

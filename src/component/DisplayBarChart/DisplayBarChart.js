@@ -12,46 +12,46 @@ import {
 const DisplayBarChart = () => {
 	const data = [
 		{
-			name: "Item 1",
-			income: 10000,
-			invest: 4000,
-			percent: 10,
+			month: "Mar",
+			investment: 100000,
+			sell: 241,
+			profit: 10401,
+			id: 1,
 		},
 		{
-			name: "Item 2",
-			income: 50000,
-			invest: 9000,
-			percent: 13,
+			month: "Apr",
+			investment: 200000,
+			sell: 423,
+			profit: 24500,
+			id: 1,
 		},
 		{
-			name: "Item 3",
-			income: 83000,
-			invest: 4000,
-			percent: 10,
+			month: "May",
+			investment: 500000,
+			sell: 726,
+			profit: 67010,
+			id: 1,
 		},
 		{
-			name: "Item 4",
-			income: 50000,
-			invest: 8000,
-			percent: 30,
+			month: "Jun",
+			investment: 500000,
+			sell: 529,
+			profit: 40405,
+			id: 1,
 		},
 		{
-			name: "Item 5",
-			income: 40000,
-			invest: 9000,
-			percent: 30,
+			month: "Jul",
+			investment: 600000,
+			sell: 601,
+			profit: 50900,
+			id: 1,
 		},
 		{
-			name: "Item 6",
-			income: 55000,
-			invest: 3000,
-			percent: 20,
-		},
-		{
-			name: "Item 7",
-			income: 30000,
-			invest: 24000,
-			percent: 60,
+			month: "Aug",
+			investment: 700000,
+			sell: 670,
+			profit: 61000,
+			id: 1,
 		},
 	];
 	return (
@@ -67,12 +67,12 @@ const DisplayBarChart = () => {
 			}}
 		>
 			<CartesianGrid strokeDasharray="3 3" />
-			<XAxis dataKey="name" />
+			<XAxis dataKey="id" />
 			<YAxis />
 			<Tooltip />
 			<Legend />
-			<Bar dataKey="invest" fill="#8884d8" />
-			<Bar dataKey="income" fill="#82ca9d" />
+			<Bar dataKey="sell" fill="#8884d8" />
+			<Bar dataKey="investment" fill="#82ca9d" />
 		</BarChart>
 	);
 };

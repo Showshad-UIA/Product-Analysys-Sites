@@ -1,6 +1,6 @@
 # Grocery house
 
-[My live site](https://github.com/facebook/create-react-app).
+[My live site](https://app.netlify.com/sites/raihan-assignment-9/settings/general).
 
 ## About the project
 
@@ -14,8 +14,8 @@ I have used tailwind for css purpose besides that i have used react libraries.
 
 - A list of technologies used within the project:
 
-* Tailwind
-* Bootstrap
-* React dom
-* vanilla css
-* Netlify for deployment
+* I have shown the data by using bar chart and line chart.
+* I make reviews for respected product
+* In home page added a picture and their details.
+* Project has a meaning name and favicon
+* used Netlify for deployment
