@@ -1,9 +1,10 @@
 import React from "react";
+import Items from "../Items/Items";
 
 const Review = () => {
 	return (
 		<div>
-			<h2>welcome review</h2>
+			<Items></Items>
 		</div>
 	);
 };
