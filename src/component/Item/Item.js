@@ -4,7 +4,7 @@ import "./Item.css";
 const Item = (props) => {
 	const { img, name, id, rating } = props.item;
 	return (
-		<div className="items">
+		<div className="item-container">
 			<div>
 				<img src={img} alt="" />
 			</div>

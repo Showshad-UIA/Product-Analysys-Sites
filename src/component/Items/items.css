@@ -1,9 +1,5 @@
-.items img {
-	width: 200px;
-	height: 200px;
-}
 .item-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 15px;
+	grid-gap: 10px;
 }
