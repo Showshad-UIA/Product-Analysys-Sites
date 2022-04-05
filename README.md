@@ -12,8 +12,6 @@ I have used tailwind for css purpose besides that i have used react libraries.
 
 ## Technologies
 
----
-
 - A list of technologies used within the project:
 
 * Tailwind

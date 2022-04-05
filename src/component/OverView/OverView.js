@@ -4,7 +4,7 @@ import DisplayChart from "../DisplayChart/DisplayChart";
 
 const OverView = () => {
 	return (
-		<div>
+		<div className="flex mt-10 ml-10">
 			<DisplayChart></DisplayChart>
 			<DisplayBarChart></DisplayBarChart>
 		</div>

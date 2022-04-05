@@ -3,7 +3,7 @@ import HomeDetails from "../component/HomeDetails/HomeDetails";
 
 const Home = () => {
 	return (
-		<div>
+		<div className="bg-slate-200">
 			<HomeDetails></HomeDetails>
 		</div>
 	);
