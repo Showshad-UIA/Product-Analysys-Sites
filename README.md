@@ -1,6 +1,6 @@
 # Grocery house
 
-[My live site](https://app.netlify.com/sites/raihan-assignment-9/settings/general).
+[My live site][https://app.netlify.com/sites/raihan-assignment-9/settings/general].
 
 ## About the project
 
